@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Collector</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src= "assets/javascript/game.js"></script>
+
+
+</head>
+<body>
+	<div class="header">
+		<h1>Crystals Collector!</h1>
+	</div>
+	<a href='http://www.freepik.com/free-vector/blue-and-purple-floral-pattern_961511.htm'></a>
+	<div class="body">
+		<p> You will be given a random number at the start of the game.</p><br>
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p><br>
+		<p>You win the game by matching your total score to the given random number, and you lose the game if your total score goes above that random number</p><br>
+		<p>The value of each crystal is hidden from you until you click on it.</p><br>
+		<p>Each time when the game starts, the game will change the values of each crystal.</p>
+	</div>
+	<div class="container">
+		<div id="random-num-box">24</div>
+		<div id="win-loss-box">
+			<p><span id="windicator"></span><br>Wins: <span id="wincount"></span> <br> Losses: <span id="losscount"></span></p>
+		</div>
+
+		<br>
+		<div class="crystals">
+			<div class="crystal" id="crystal-1">
+				<img src="assets/images/Gem.png" alt="Ruby">
+			</div>
+			<div class="crystal" id="crystal-2">
+				<img src="assets/images/Gem1.png" alt="Aquamarine">
+			</div>
+			<div class="crystal" id="crystal-3">
+				<img src="assets/images/Gem2.png" alt="Crystal">
+			</div>
+			<div class="crystal" id="crystal-4">
+				<img src="assets/images/Gem3.png" alt="Sapphire">
+			</div>
+		</div>
+		
+		<br>
+		<div class="score"><p>Your total score is:</p></div>
+		<br>
+		<div class="score" id="score-tracker-box">000</div>
+	</div>
+
+</body>
+</html>

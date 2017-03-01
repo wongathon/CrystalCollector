@@ -1,0 +1,78 @@
+.header{
+	width: 250px;
+	background-color: orange;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px;
+	margin: 20px;
+}
+
+body {
+	background-image: url("../images/geometry2/congruent_pentagon.png");
+}
+
+.body{
+	width: 350px;
+	background-color: Moccasin;
+	color: green;
+	font-size: 15px;
+	font-weight: bold;
+	padding:30px;
+	margin:20px;
+}
+
+.container{
+	margin-left: 10px;
+}
+
+#random-num-box{
+	clear:both;
+	float: left;
+	background-color: MediumAquaMarine;
+	color:purple;
+	height: 100px;
+	width: 200px;
+	padding: 10px;
+	font-size: 30px;
+	margin:10px;
+}
+
+#win-loss-box{
+	margin:10px;
+	height: 90px;
+	width: 75px;
+	padding:10px;
+	float:left;
+	background-color: cyan;
+	line-height: 30px;
+}
+
+.crystals{
+	clear: left;
+	margin-left:5px;
+}
+
+.crystal{
+	float:left;
+	height:100px;
+	width:100px;
+	margin: 5px;
+}
+
+.score{
+	clear:left;
+	float:left;
+	background-color: teal;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	width: 200px;
+}
+
+#score-tracker-box{
+	margin-top: -5px;
+	float:left;
+	font-size: 30px;
+	height: 100px;
+}
