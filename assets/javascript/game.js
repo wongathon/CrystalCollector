@@ -43,7 +43,7 @@ $(".crystal").on("click", function(){
 
 //crystal floater function
 $(".crystal").hover(function(){
-	$(this).animate({
+	$(this).animate();
 });
 
 
@@ -69,3 +69,5 @@ function conditions(){
 gameStart();
 
 });
+
+
